@@ -1,0 +1,104 @@
+{
+  "versions": [
+    {
+      "version": 1,
+      "timestamp": "2024-11-29T15:14:03.282Z",
+      "metrics": {
+        "averageLoss": 1.3154492355953074,
+        "accuracy": 0,
+        "totalSamples": 5
+      },
+      "config": {
+        "embeddingDim": 100,
+        "epochs": 10,
+        "batchSize": 32,
+        "learningRate": 0.01
+      },
+      "modelFile": "model_v1.json"
+    },
+    {
+      "version": 2,
+      "timestamp": "2024-11-29T15:15:43.417Z",
+      "metrics": {
+        "accuracy": 0.2,
+        "averageLoss": 1.1975567831920102,
+        "totalSamples": 5,
+        "labelMetrics": {
+          "farewell": {
+            "precision": 0,
+            "recall": 0,
+            "f1": 0
+          },
+          "greeting": {
+            "precision": 0.5,
+            "recall": 0.5,
+            "f1": 0.5
+          },
+          "question": {
+            "precision": 0,
+            "recall": 0,
+            "f1": 0
+          }
+        }
+      },
+      "config": {
+        "embeddingDim": 100,
+        "epochs": 10,
+        "batchSize": 32,
+        "learningRate": 0.01
+      },
+      "modelFile": "model_v2.json"
+    },
+    {
+      "version": 3,
+      "timestamp": "2024-11-29T15:40:04.280Z",
+      "metrics": {
+        "accuracy": 0.8,
+        "averageLoss": 0.2
+      },
+      "config": {
+        "embeddingDim": 100
+      },
+      "modelFile": "model_v3.json"
+    },
+    {
+      "version": 4,
+      "timestamp": "2024-11-29T15:40:04.301Z",
+      "metrics": {
+        "accuracy": 0.7
+      },
+      "config": {},
+      "modelFile": "model_v4.json"
+    },
+    {
+      "version": 5,
+      "timestamp": "2024-11-29T15:40:04.304Z",
+      "metrics": {
+        "accuracy": 0.8
+      },
+      "config": {},
+      "modelFile": "model_v5.json"
+    },
+    {
+      "version": 6,
+      "timestamp": "2024-11-29T15:40:04.332Z",
+      "metrics": {
+        "accuracy": 0.7,
+        "averageLoss": 0.3
+      },
+      "config": {},
+      "modelFile": "model_v6.json"
+    },
+    {
+      "version": 7,
+      "timestamp": "2024-11-29T15:40:04.334Z",
+      "metrics": {
+        "accuracy": 0.8,
+        "averageLoss": 0.2
+      },
+      "config": {},
+      "modelFile": "model_v7.json"
+    }
+  ],
+  "currentVersion": 7
+}

@@ -1,0 +1,163 @@
+{"level":"info","message":"Configuration validated successfully","timestamp":"2024-11-29T15:09:55.406Z"}
+{"level":"info","message":"Starting training process","timestamp":"2024-11-29T15:09:55.408Z"}
+{"level":"info","message":"Loaded 5 training examples","timestamp":"2024-11-29T15:09:55.408Z"}
+{"level":"info","message":"Initialized model with vocabulary size 12","timestamp":"2024-11-29T15:09:55.409Z"}
+{"level":"info","message":"Created 1 batches of size 32","timestamp":"2024-11-29T15:09:55.409Z"}
+{"accuracy":0.4,"averageLoss":1.032677141148093,"level":"info","message":"Epoch 1, Metrics:","timestamp":"2024-11-29T15:09:55.411Z","totalSamples":5}
+{"level":"info","message":"Created 1 batches of size 32","timestamp":"2024-11-29T15:09:55.411Z"}
+{"accuracy":0.2,"averageLoss":1.0948168309100235,"level":"info","message":"Epoch 2, Metrics:","timestamp":"2024-11-29T15:09:55.412Z","totalSamples":5}
+{"level":"info","message":"Created 1 batches of size 32","timestamp":"2024-11-29T15:09:55.412Z"}
+{"accuracy":0.2,"averageLoss":1.20727439767678,"level":"info","message":"Epoch 3, Metrics:","timestamp":"2024-11-29T15:09:55.413Z","totalSamples":5}
+{"level":"info","message":"Created 1 batches of size 32","timestamp":"2024-11-29T15:09:55.413Z"}
+{"accuracy":0.6,"averageLoss":1.0171438034422333,"level":"info","message":"Epoch 4, Metrics:","timestamp":"2024-11-29T15:09:55.414Z","totalSamples":5}
+{"level":"info","message":"Created 1 batches of size 32","timestamp":"2024-11-29T15:09:55.414Z"}
+{"accuracy":0.2,"averageLoss":1.2603677463987266,"level":"info","message":"Epoch 5, Metrics:","timestamp":"2024-11-29T15:09:55.415Z","totalSamples":5}
+{"level":"info","message":"Saved checkpoint for epoch 5 to models/checkpoint_epoch_5.json","timestamp":"2024-11-29T15:09:55.418Z"}
+{"level":"info","message":"Created 1 batches of size 32","timestamp":"2024-11-29T15:09:55.418Z"}
+{"accuracy":0.4,"averageLoss":1.2104569006487067,"level":"info","message":"Epoch 6, Metrics:","timestamp":"2024-11-29T15:09:55.419Z","totalSamples":5}
+{"level":"info","message":"Created 1 batches of size 32","timestamp":"2024-11-29T15:09:55.419Z"}
+{"accuracy":0.8,"averageLoss":0.9275483767087417,"level":"info","message":"Epoch 7, Metrics:","timestamp":"2024-11-29T15:09:55.419Z","totalSamples":5}
+{"level":"info","message":"Created 1 batches of size 32","timestamp":"2024-11-29T15:09:55.419Z"}
+{"accuracy":0.2,"averageLoss":1.2494302993974298,"level":"info","message":"Epoch 8, Metrics:","timestamp":"2024-11-29T15:09:55.420Z","totalSamples":5}
+{"level":"info","message":"Created 1 batches of size 32","timestamp":"2024-11-29T15:09:55.420Z"}
+{"accuracy":0.6,"averageLoss":0.9219788169498753,"level":"info","message":"Epoch 9, Metrics:","timestamp":"2024-11-29T15:09:55.420Z","totalSamples":5}
+{"level":"info","message":"Created 1 batches of size 32","timestamp":"2024-11-29T15:09:55.420Z"}
+{"accuracy":0.4,"averageLoss":1.2861706414163283,"level":"info","message":"Epoch 10, Metrics:","timestamp":"2024-11-29T15:09:55.420Z","totalSamples":5}
+{"level":"info","message":"Saved checkpoint for epoch 10 to models/checkpoint_epoch_10.json","timestamp":"2024-11-29T15:09:55.423Z"}
+{"level":"info","message":"Training completed successfully","timestamp":"2024-11-29T15:09:55.425Z"}
+{"level":"info","message":"Configuration validated successfully","timestamp":"2024-11-29T15:11:25.816Z"}
+{"level":"info","message":"Loaded model and 5 test examples","timestamp":"2024-11-29T15:11:25.820Z"}
+{"accuracy":0.4,"averageLoss":0.9243101696632378,"confusionMatrix":{"farewell":{"farewell":0,"greeting":1,"question":1},"greeting":{"farewell":0,"greeting":2,"question":0},"question":{"farewell":1,"greeting":0,"question":0}},"labelMetrics":{"farewell":{"f1":0,"precision":0,"recall":0},"greeting":{"f1":0.8,"precision":0.6666666666666666,"recall":1},"question":{"f1":0,"precision":0,"recall":0}},"level":"info","message":"Model evaluation completed","sampleCount":5,"timestamp":"2024-11-29T15:11:25.821Z"}
+{"accuracy":0.4,"averageLoss":0.9243101696632378,"level":"info","message":"Evaluation Summary:","sampleCount":5,"timestamp":"2024-11-29T15:11:25.822Z"}
+{"f1":0.8,"level":"info","message":"Metrics for greeting:","precision":0.6666666666666666,"recall":1,"timestamp":"2024-11-29T15:11:25.822Z"}
+{"f1":0,"level":"info","message":"Metrics for farewell:","precision":0,"recall":0,"timestamp":"2024-11-29T15:11:25.822Z"}
+{"f1":0,"level":"info","message":"Metrics for question:","precision":0,"recall":0,"timestamp":"2024-11-29T15:11:25.823Z"}
+{"level":"info","message":"Configuration validated successfully","timestamp":"2024-11-29T15:14:03.254Z"}
+{"level":"info","message":"Starting training process","timestamp":"2024-11-29T15:14:03.257Z"}
+{"level":"info","message":"Loaded 5 training examples","timestamp":"2024-11-29T15:14:03.258Z"}
+{"level":"info","message":"Configuration validated successfully","timestamp":"2024-11-29T15:14:03.259Z"}
+{"level":"info","message":"Initialized model with vocabulary size 12","timestamp":"2024-11-29T15:14:03.260Z"}
+{"level":"info","message":"Created 1 batches of size 32","timestamp":"2024-11-29T15:14:03.260Z"}
+{"accuracy":0.4,"averageLoss":1.2095332262742047,"level":"info","message":"Epoch 1, Metrics:","timestamp":"2024-11-29T15:14:03.261Z","totalSamples":5}
+{"level":"info","message":"Created 1 batches of size 32","timestamp":"2024-11-29T15:14:03.262Z"}
+{"accuracy":0.2,"averageLoss":1.1074611547914683,"level":"info","message":"Epoch 2, Metrics:","timestamp":"2024-11-29T15:14:03.262Z","totalSamples":5}
+{"level":"info","message":"Created 1 batches of size 32","timestamp":"2024-11-29T15:14:03.263Z"}
+{"accuracy":0.2,"averageLoss":1.1030674343722566,"level":"info","message":"Epoch 3, Metrics:","timestamp":"2024-11-29T15:14:03.263Z","totalSamples":5}
+{"level":"info","message":"Created 1 batches of size 32","timestamp":"2024-11-29T15:14:03.264Z"}
+{"accuracy":0.8,"averageLoss":0.9626529738255789,"level":"info","message":"Epoch 4, Metrics:","timestamp":"2024-11-29T15:14:03.264Z","totalSamples":5}
+{"level":"info","message":"Created 1 batches of size 32","timestamp":"2024-11-29T15:14:03.264Z"}
+{"accuracy":0.8,"averageLoss":0.9465040214355456,"level":"info","message":"Epoch 5, Metrics:","timestamp":"2024-11-29T15:14:03.264Z","totalSamples":5}
+{"level":"info","message":"Saved checkpoint for epoch 5 to models/checkpoint_epoch_5.json","timestamp":"2024-11-29T15:14:03.272Z"}
+{"level":"info","message":"Created 1 batches of size 32","timestamp":"2024-11-29T15:14:03.273Z"}
+{"accuracy":0.4,"averageLoss":1.16778794394617,"level":"info","message":"Epoch 6, Metrics:","timestamp":"2024-11-29T15:14:03.274Z","totalSamples":5}
+{"level":"info","message":"Created 1 batches of size 32","timestamp":"2024-11-29T15:14:03.274Z"}
+{"accuracy":0.2,"averageLoss":1.14507455270701,"level":"info","message":"Epoch 7, Metrics:","timestamp":"2024-11-29T15:14:03.275Z","totalSamples":5}
+{"level":"info","message":"Created 1 batches of size 32","timestamp":"2024-11-29T15:14:03.275Z"}
+{"accuracy":0.4,"averageLoss":1.0651414029615032,"level":"info","message":"Epoch 8, Metrics:","timestamp":"2024-11-29T15:14:03.276Z","totalSamples":5}
+{"level":"info","message":"Created 1 batches of size 32","timestamp":"2024-11-29T15:14:03.276Z"}
+{"accuracy":0.2,"averageLoss":1.278208642917125,"level":"info","message":"Epoch 9, Metrics:","timestamp":"2024-11-29T15:14:03.277Z","totalSamples":5}
+{"level":"info","message":"Created 1 batches of size 32","timestamp":"2024-11-29T15:14:03.277Z"}
+{"accuracy":0,"averageLoss":1.3154492355953074,"level":"info","message":"Epoch 10, Metrics:","timestamp":"2024-11-29T15:14:03.277Z","totalSamples":5}
+{"level":"info","message":"Saved checkpoint for epoch 10 to models/checkpoint_epoch_10.json","timestamp":"2024-11-29T15:14:03.281Z"}
+{"level":"info","message":"Saved model version 1","timestamp":"2024-11-29T15:14:03.286Z"}
+{"level":"info","message":"Training completed successfully","timestamp":"2024-11-29T15:14:03.286Z"}
+{"level":"info","message":"Configuration validated successfully","timestamp":"2024-11-29T15:15:43.396Z"}
+{"level":"info","message":"Starting training process","timestamp":"2024-11-29T15:15:43.400Z"}
+{"level":"info","message":"Loaded 5 training examples","timestamp":"2024-11-29T15:15:43.400Z"}
+{"level":"info","message":"Configuration validated successfully","timestamp":"2024-11-29T15:15:43.401Z"}
+{"level":"info","message":"Initialized model with vocabulary size 12","timestamp":"2024-11-29T15:15:43.401Z"}
+{"level":"info","message":"Created 1 batches of size 32","timestamp":"2024-11-29T15:15:43.402Z"}
+{"accuracy":0.6,"averageLoss":0.9693169357861846,"labelMetrics":{"farewell":{"f1":0.6666666666666666,"precision":1,"recall":0.5},"greeting":{"f1":0.5,"precision":0.5,"recall":0.5},"question":{"f1":1,"precision":1,"recall":1}},"level":"info","message":"Epoch 1, Metrics:","timestamp":"2024-11-29T15:15:43.403Z","totalSamples":5}
+{"level":"info","message":"Created 1 batches of size 32","timestamp":"2024-11-29T15:15:43.403Z"}
+{"accuracy":1,"averageLoss":0.9799260591078383,"labelMetrics":{"farewell":{"f1":1,"precision":1,"recall":1},"greeting":{"f1":1,"precision":1,"recall":1},"question":{"f1":1,"precision":1,"recall":1}},"level":"info","message":"Epoch 2, Metrics:","timestamp":"2024-11-29T15:15:43.404Z","totalSamples":5}
+{"level":"info","message":"Created 1 batches of size 32","timestamp":"2024-11-29T15:15:43.404Z"}
+{"accuracy":0.2,"averageLoss":1.2250307073450621,"labelMetrics":{"farewell":{"f1":0,"precision":0,"recall":0},"greeting":{"f1":0,"precision":0,"recall":0},"question":{"f1":1,"precision":1,"recall":1}},"level":"info","message":"Epoch 3, Metrics:","timestamp":"2024-11-29T15:15:43.406Z","totalSamples":5}
+{"level":"info","message":"Created 1 batches of size 32","timestamp":"2024-11-29T15:15:43.406Z"}
+{"accuracy":0.4,"averageLoss":1.0495954181998117,"labelMetrics":{"farewell":{"f1":0.6666666666666666,"precision":1,"recall":0.5},"greeting":{"f1":0,"precision":0,"recall":0},"question":{"f1":0.6666666666666666,"precision":0.5,"recall":1}},"level":"info","message":"Epoch 4, Metrics:","timestamp":"2024-11-29T15:15:43.406Z","totalSamples":5}
+{"level":"info","message":"Created 1 batches of size 32","timestamp":"2024-11-29T15:15:43.407Z"}
+{"accuracy":0.2,"averageLoss":1.0950249269053547,"labelMetrics":{"farewell":{"f1":0,"precision":0,"recall":0},"greeting":{"f1":0.3333333333333333,"precision":0.25,"recall":0.5},"question":{"f1":0,"precision":0,"recall":0}},"level":"info","message":"Epoch 5, Metrics:","timestamp":"2024-11-29T15:15:43.407Z","totalSamples":5}
+{"level":"info","message":"Saved checkpoint for epoch 5 to models/checkpoint_epoch_5.json","timestamp":"2024-11-29T15:15:43.411Z"}
+{"level":"info","message":"Created 1 batches of size 32","timestamp":"2024-11-29T15:15:43.412Z"}
+{"accuracy":0.2,"averageLoss":1.0463132969199072,"labelMetrics":{"farewell":{"f1":0.6666666666666666,"precision":1,"recall":0.5},"greeting":{"f1":0,"precision":0,"recall":0},"question":{"f1":0,"precision":0,"recall":0}},"level":"info","message":"Epoch 6, Metrics:","timestamp":"2024-11-29T15:15:43.413Z","totalSamples":5}
+{"level":"info","message":"Created 1 batches of size 32","timestamp":"2024-11-29T15:15:43.413Z"}
+{"accuracy":0.2,"averageLoss":1.1370992236824247,"labelMetrics":{"farewell":{"f1":0,"precision":0,"recall":0},"greeting":{"f1":0,"precision":0,"recall":0},"question":{"f1":0.6666666666666666,"precision":0.5,"recall":1}},"level":"info","message":"Epoch 7, Metrics:","timestamp":"2024-11-29T15:15:43.413Z","totalSamples":5}
+{"level":"info","message":"Created 1 batches of size 32","timestamp":"2024-11-29T15:15:43.413Z"}
+{"accuracy":0.4,"averageLoss":1.161805518197847,"labelMetrics":{"farewell":{"f1":0.4,"precision":0.3333333333333333,"recall":0.5},"greeting":{"f1":0.5,"precision":0.5,"recall":0.5},"question":{"f1":0,"precision":0,"recall":0}},"level":"info","message":"Epoch 8, Metrics:","timestamp":"2024-11-29T15:15:43.413Z","totalSamples":5}
+{"level":"info","message":"Created 1 batches of size 32","timestamp":"2024-11-29T15:15:43.413Z"}
+{"accuracy":0.4,"averageLoss":1.062290998531913,"labelMetrics":{"farewell":{"f1":1,"precision":1,"recall":1},"greeting":{"f1":0,"precision":0,"recall":0},"question":{"f1":0,"precision":0,"recall":0}},"level":"info","message":"Epoch 9, Metrics:","timestamp":"2024-11-29T15:15:43.414Z","totalSamples":5}
+{"level":"info","message":"Created 1 batches of size 32","timestamp":"2024-11-29T15:15:43.414Z"}
+{"accuracy":0.2,"averageLoss":1.1975567831920102,"labelMetrics":{"farewell":{"f1":0,"precision":0,"recall":0},"greeting":{"f1":0.5,"precision":0.5,"recall":0.5},"question":{"f1":0,"precision":0,"recall":0}},"level":"info","message":"Epoch 10, Metrics:","timestamp":"2024-11-29T15:15:43.414Z","totalSamples":5}
+{"level":"info","message":"Saved checkpoint for epoch 10 to models/checkpoint_epoch_10.json","timestamp":"2024-11-29T15:15:43.417Z"}
+{"level":"info","message":"Saved model version 2","timestamp":"2024-11-29T15:15:43.420Z"}
+{"level":"info","message":"Training completed successfully","timestamp":"2024-11-29T15:15:43.420Z"}
+{"level":"info","message":"Configuration validated successfully","timestamp":"2024-11-29T15:40:02.804Z"}
+{"level":"info","message":"Starting preprocessing of file: input.csv","timestamp":"2024-11-29T15:40:02.902Z"}
+{"level":"info","message":"Successfully preprocessed input.csv","timestamp":"2024-11-29T15:40:02.981Z"}
+{"accuracy":0.5,"averageLoss":0.8069347966527634,"confusionMatrix":{"farewell":{"farewell":0,"greeting":0,"question":1},"greeting":{"farewell":0,"greeting":1,"question":0},"question":{"farewell":0,"greeting":0,"question":0}},"labelMetrics":{"farewell":{"f1":0,"precision":0,"recall":0},"greeting":{"f1":1,"precision":1,"recall":1},"question":{"f1":0,"precision":0,"recall":0}},"level":"info","message":"Model evaluation completed","sampleCount":2,"timestamp":"2024-11-29T15:40:04.260Z"}
+{"level":"info","message":"Configuration validated successfully","timestamp":"2024-11-29T15:40:04.268Z"}
+{"level":"info","message":"Configuration validated successfully","timestamp":"2024-11-29T15:40:04.278Z"}
+{"level":"info","message":"Saved model version 3","timestamp":"2024-11-29T15:40:04.281Z"}
+{"level":"info","message":"Configuration validated successfully","timestamp":"2024-11-29T15:40:04.300Z"}
+{"level":"info","message":"Saved model version 4","timestamp":"2024-11-29T15:40:04.302Z"}
+{"level":"info","message":"Saved model version 5","timestamp":"2024-11-29T15:40:04.305Z"}
+{"level":"info","message":"Configuration validated successfully","timestamp":"2024-11-29T15:40:04.332Z"}
+{"level":"info","message":"Saved model version 6","timestamp":"2024-11-29T15:40:04.333Z"}
+{"level":"info","message":"Saved model version 7","timestamp":"2024-11-29T15:40:04.334Z"}
+{"level":"info","message":"Starting 3-fold cross validation","timestamp":"2024-11-29T15:40:16.584Z"}
+{"level":"info","message":"Created 2 batches of size 32","timestamp":"2024-11-29T15:40:16.588Z"}
+{"accuracy":0.3125,"averageLoss":0.5,"labelMetrics":{"farewell":{"f1":0.16666666666666666,"precision":0.3333333333333333,"recall":0.1111111111111111},"greeting":{"f1":0.5333333333333333,"precision":0.5,"recall":0.5714285714285714}},"level":"info","message":"Fold 1 metrics:","timestamp":"2024-11-29T15:40:16.608Z","totalSamples":16}
+{"level":"info","message":"Created 2 batches of size 32","timestamp":"2024-11-29T15:40:16.609Z"}
+{"accuracy":0.1875,"averageLoss":0.5,"labelMetrics":{"farewell":{"f1":0.26666666666666666,"precision":0.3333333333333333,"recall":0.2222222222222222},"greeting":{"f1":0.18181818181818182,"precision":0.25,"recall":0.14285714285714285}},"level":"info","message":"Fold 2 metrics:","timestamp":"2024-11-29T15:40:16.618Z","totalSamples":16}
+{"level":"info","message":"Created 1 batches of size 32","timestamp":"2024-11-29T15:40:16.619Z"}
+{"accuracy":0.3333333333333333,"averageLoss":0.5,"labelMetrics":{"farewell":{"f1":0.5,"precision":0.6,"recall":0.42857142857142855},"greeting":{"f1":0.42857142857142855,"precision":1,"recall":0.2727272727272727}},"level":"info","message":"Fold 3 metrics:","timestamp":"2024-11-29T15:40:16.626Z","totalSamples":18}
+{"level":"info","message":"Early stopping triggered after 2 epochs without improvement","timestamp":"2024-11-29T15:40:17.646Z"}
+{"level":"info","message":"Early stopping triggered after 2 epochs without improvement","timestamp":"2024-11-29T15:40:17.649Z"}
+{"level":"info","message":"Saved checkpoint for epoch 1 to test_checkpoints/checkpoint_epoch_1.json","timestamp":"2024-11-29T15:40:22.794Z"}
+{"level":"info","message":"Loading checkpoint from test_checkpoints/checkpoint_epoch_2.json","timestamp":"2024-11-29T15:40:22.802Z"}
+{"level":"info","message":"Configuration validated successfully","timestamp":"2024-11-29T15:40:22.836Z"}
+{"level":"info","message":"Configuration validated successfully","timestamp":"2024-11-29T15:40:22.852Z"}
+{"level":"info","message":"Splitting dataset into train/validation sets","timestamp":"2024-11-29T15:40:22.852Z"}
+{"level":"info","message":"Split dataset: 80 train, 20 validation examples","timestamp":"2024-11-29T15:40:22.853Z"}
+{"level":"info","message":"Configuration validated successfully","timestamp":"2024-11-29T15:40:22.862Z"}
+{"level":"info","message":"Splitting dataset into train/validation sets","timestamp":"2024-11-29T15:40:22.862Z"}
+{"level":"info","message":"Split dataset: 0 train, 0 validation examples","timestamp":"2024-11-29T15:40:22.863Z"}
+{"level":"info","message":"Configuration validated successfully","timestamp":"2024-11-29T15:40:22.863Z"}
+{"level":"info","message":"Splitting dataset into train/validation sets","timestamp":"2024-11-29T15:40:22.863Z"}
+{"level":"info","message":"Split dataset: 70 train, 30 validation examples","timestamp":"2024-11-29T15:40:22.864Z"}
+{"level":"info","message":"Created 3 batches of size 2","timestamp":"2024-11-29T15:40:33.737Z"}
+{"level":"info","message":"Configuration validated successfully","timestamp":"2024-11-29T15:40:34.654Z"}
+{"level":"info","message":"Configuration validated successfully","timestamp":"2024-11-29T15:40:34.657Z"}
+{"level":"info","message":"Configuration validated successfully","timestamp":"2024-11-29T15:40:34.658Z"}
+{"level":"info","message":"Early stopping triggered after 2 epochs without improvement","timestamp":"2024-11-29T15:44:58.286Z"}
+{"accuracy":0.5,"averageLoss":0.7803238738942391,"confusionMatrix":{"A":{"A":1,"B":0},"B":{"A":1,"B":0}},"labelMetrics":{"A":{"f1":0.6666666666666666,"precision":0.5,"recall":1},"B":{"f1":0,"precision":0,"recall":0}},"level":"info","message":"Model evaluation completed","sampleCount":2,"timestamp":"2024-11-29T15:46:09.839Z"}
+{"level":"info","message":"Saved model version 1","timestamp":"2024-11-29T15:47:16.609Z"}
+{"level":"info","message":"Loaded model version 1","timestamp":"2024-11-29T15:47:16.649Z"}
+{"level":"info","message":"Deleted model version 1","timestamp":"2024-11-29T15:47:16.775Z"}
+{"level":"info","message":"Added version 1 to registry","timestamp":"2024-11-29T15:47:26.866Z"}
+{"level":"info","message":"Added version 1 to registry","timestamp":"2024-11-29T15:47:26.888Z"}
+{"level":"info","message":"Added version 2 to registry","timestamp":"2024-11-29T15:47:26.919Z"}
+{"level":"info","message":"Added version 1 to registry","timestamp":"2024-11-29T15:47:26.951Z"}
+{"level":"info","message":"Added version 2 to registry","timestamp":"2024-11-29T15:47:26.981Z"}
+{"level":"info","message":"Added version 3 to registry","timestamp":"2024-11-29T15:47:27.013Z"}
+{"level":"info","message":"Added version 4 to registry","timestamp":"2024-11-29T15:47:27.045Z"}
+{"level":"info","message":"Added version 5 to registry","timestamp":"2024-11-29T15:47:27.102Z"}
+{"level":"info","message":"Added version 6 to registry","timestamp":"2024-11-29T15:47:27.136Z"}
+{"level":"info","message":"Deleted old version: 3","timestamp":"2024-11-29T15:47:27.184Z"}
+{"level":"info","message":"Deleted old version: 2","timestamp":"2024-11-29T15:47:27.200Z"}
+{"level":"info","message":"Deleted old version: 1","timestamp":"2024-11-29T15:47:27.216Z"}
+{"level":"info","message":"Starting training process","timestamp":"2024-11-29T15:48:25.949Z"}
+{"accuracy":0.5,"averageLoss":0.6974101819782315,"labelMetrics":{"A":{"f1":0,"precision":0,"recall":0},"B":{"f1":0.6666666666666666,"precision":0.5,"recall":1}},"level":"info","message":"Epoch 1, Metrics:","timestamp":"2024-11-29T15:48:25.955Z","totalSamples":2}
+{"level":"error","message":"Training failed: Cannot convert \"0.13316978014259875,-0.12969864179060975-0.004821331562067116\" to a number","stack":"Error: Cannot convert \"0.13316978014259875,-0.12969864179060975-0.004821331562067116\" to a number\n    at convert (file:///home/project/node_modules/mathjs/lib/esm/core/function/typed.js:290:15)\n    at Array.convertArg (/home/project/node_modules/typed-function/lib/esm/typed-function.mjs:1070:20)\n    at convertArgs (/home/project/node_modules/typed-function/lib/esm/typed-function.mjs:1024:43)\n    at generic (/home/project/node_modules/typed-function/lib/esm/typed-function.mjs:1443:25)\n    at multiplyScalar (/home/project/node_modules/typed-function/lib/esm/typed-function.mjs:1472:22)\n    at _denseDot (file:///home/project/node_modules/mathjs/lib/esm/function/matrix/dot.js:100:15)\n    at dot (/home/project/node_modules/typed-function/lib/esm/typed-function.mjs:1464:20)\n    at _multiplyVectorVector (file:///home/project/node_modules/mathjs/lib/esm/function/arithmetic/multiply.js:102:12)\n    at MatrixMatrix (file:///home/project/node_modules/mathjs/lib/esm/function/arithmetic/multiply.js:848:18)\n    at Module.eval (file:///home/project/node_modules/mathjs/lib/esm/function/arithmetic/multiply.js:831:15)","timestamp":"2024-11-29T15:48:25.963Z"}
+{"level":"info","message":"Starting training process","timestamp":"2024-11-29T15:48:25.964Z"}
+{"level":"error","message":"Training failed: Cannot read properties of undefined (reading 'probability')","stack":"TypeError: Cannot read properties of undefined (reading 'probability')\n    at ModelTrainer.calculateLoss (/home/project/src/model/core/training/trainer.js:112:70)\n    at eval (/home/project/src/model/core/training/trainer.js:91:20)\n    at ModelTrainer.trainBatch (/home/project/src/model/core/training/trainer.js:86:32)\n    at ModelTrainer.trainEpoch (/home/project/src/model/core/training/trainer.js:80:18)\n    at ModelTrainer.train (/home/project/src/model/core/training/trainer.js:40:20)\n    at eval (/home/project/src/model/core/training/__tests__/trainer.test.js:72:32)\n    at eval (file:///home/project/node_modules/@vitest/runner/dist/index.js:169:14)\n    at eval (file:///home/project/node_modules/@vitest/runner/dist/index.js:94:26)\n    at runTest (file:///home/project/node_modules/@vitest/runner/dist/index.js:815:17)","timestamp":"2024-11-29T15:48:25.971Z"}
+{"level":"info","message":"Starting training pipeline","timestamp":"2024-11-29T15:50:19.912Z"}
+{"level":"info","message":"Created 1 batches of size 2","timestamp":"2024-11-29T15:50:19.915Z"}
+{"level":"error","message":"Training pipeline failed: Cannot read properties of undefined (reading 'probability')","stack":"TypeError: Cannot read properties of undefined (reading 'probability')\n    at ModelTrainer.calculateLoss (/home/project/src/model/core/training/trainer.js:112:70)\n    at eval (/home/project/src/model/core/training/pipeline.js:83:25)\n    at async TrainingPipeline.processBatch (/home/project/src/model/core/training/pipeline.js:77:26)\n    at async TrainingPipeline.processEpoch (/home/project/src/model/core/training/pipeline.js:65:7)\n    at async TrainingPipeline.execute (/home/project/src/model/core/training/pipeline.js:24:30)\n    at async eval (/home/project/src/model/core/training/__tests__/pipeline.test.js:27:18)","timestamp":"2024-11-29T15:50:19.929Z"}
+{"level":"info","message":"Starting training pipeline","timestamp":"2024-11-29T15:50:19.931Z"}
+{"level":"info","message":"Created 1 batches of size 2","timestamp":"2024-11-29T15:50:19.932Z"}
+{"level":"error","message":"Training pipeline failed: Cannot read properties of undefined (reading 'probability')","stack":"TypeError: Cannot read properties of undefined (reading 'probability')\n    at ModelTrainer.calculateLoss (/home/project/src/model/core/training/trainer.js:112:70)\n    at eval (/home/project/src/model/core/training/pipeline.js:83:25)\n    at async TrainingPipeline.processBatch (/home/project/src/model/core/training/pipeline.js:77:26)\n    at async TrainingPipeline.processEpoch (/home/project/src/model/core/training/pipeline.js:65:7)\n    at async TrainingPipeline.execute (/home/project/src/model/core/training/pipeline.js:24:30)\n    at async eval (/home/project/src/model/core/training/__tests__/pipeline.test.js:54:18)","timestamp":"2024-11-29T15:50:19.933Z"}
+{"level":"info","message":"Starting training pipeline","timestamp":"2024-11-29T15:50:19.934Z"}
+{"level":"info","message":"Created 1 batches of size 2","timestamp":"2024-11-29T15:50:19.934Z"}
+{"level":"error","message":"Training pipeline failed: Cannot read properties of undefined (reading 'probability')","stack":"TypeError: Cannot read properties of undefined (reading 'probability')\n    at ModelTrainer.calculateLoss (/home/project/src/model/core/training/trainer.js:112:70)\n    at eval (/home/project/src/model/core/training/pipeline.js:83:25)\n    at async TrainingPipeline.processBatch (/home/project/src/model/core/training/pipeline.js:77:26)\n    at async TrainingPipeline.processEpoch (/home/project/src/model/core/training/pipeline.js:65:7)\n    at async TrainingPipeline.execute (/home/project/src/model/core/training/pipeline.js:24:30)\n    at async eval (/home/project/src/model/core/training/__tests__/pipeline.test.js:81:3)","timestamp":"2024-11-29T15:50:19.936Z"}
+{"level":"info","message":"Created 3 batches of size 2","timestamp":"2024-11-29T15:50:24.668Z"}
+{"averageLatency":1050,"errorRate":0.5,"lastError":{"message":"Error","timestamp":"2024-11-29T15:53:23.256Z"},"level":"warn","message":"Unhealthy deployment metrics:","timestamp":"2024-11-29T15:53:23.256Z","totalRequests":2}

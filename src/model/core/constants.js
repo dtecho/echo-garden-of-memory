@@ -1,0 +1,38 @@
+/**
+ * Model architecture constants
+ */
+export const MODEL_CONSTANTS = {
+  MIN_EMBEDDING_DIM: 32,
+  MAX_EMBEDDING_DIM: 1024,
+  MIN_BATCH_SIZE: 1,
+  MAX_BATCH_SIZE: 512,
+  MIN_LEARNING_RATE: 1e-6,
+  MAX_LEARNING_RATE: 1.0,
+  DROPOUT_RANGE: [0, 0.9],
+  ATTENTION_SCALING: Math.sqrt(2),
+  EPSILON: 1e-10
+};
+
+/**
+ * Training constants
+ */
+export const TRAINING_CONSTANTS = {
+  MIN_EPOCHS: 1,
+  MAX_EPOCHS: 1000,
+  MIN_PATIENCE: 1,
+  MAX_PATIENCE: 100,
+  MIN_DELTA: 1e-6,
+  MAX_DELTA: 0.1,
+  VALIDATION_SPLIT_RANGE: [0.1, 0.3]
+};
+
+/**
+ * Inference constants
+ */
+export const INFERENCE_CONSTANTS = {
+  MIN_CACHE_SIZE: 100,
+  MAX_CACHE_SIZE: 10000,
+  MAX_SEQUENCE_LENGTH: 512,
+  CONFIDENCE_THRESHOLD: 0.5,
+  TOP_K_DEFAULT: 3
+};

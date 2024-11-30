@@ -1,0 +1,13 @@
+{
+  "vocabulary": [
+    "test"
+  ],
+  "embeddings": [
+    [
+      0.1
+    ]
+  ],
+  "labels": [
+    "label1"
+  ]
+}
